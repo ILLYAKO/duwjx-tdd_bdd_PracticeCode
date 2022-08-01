@@ -28,14 +28,19 @@ Command in terminal:
 git clone https://github.com/ibm-developer-skills-network/duwjx-tdd_bdd_PracticeCode.git
 
 python3 -m unittest
+
 python3 -m unittest -v
 
 pip install nose
+
 nosetests -v
 
 pip install pinocchio
+
 nosetests --with-spec --spec-color
 
 pip install coverage
+
 nosetests --with-spec --spec-color --with-coverage
+
 coverage report -m
