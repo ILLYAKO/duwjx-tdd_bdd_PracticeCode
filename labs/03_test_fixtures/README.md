@@ -227,3 +227,14 @@ John Rofrano
 |   |   |   |   |
 
 ## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+
+Command in terminal
+    
+    git clone https://github.com/ibm-developer-skills-network/duwjx-tdd_bdd_PracticeCode.git
+    cd duwjx-tdd_bdd_PracticeCode/labs/03_test_fixtures
+    pip install -r requirements.txt
+    export PS1="[\[\033[01;32m\]\u\[\033[00m\]: \[\033[01;34m\]\W\[\033[00m\]]\$ "
+    
+    nosetests
+    
+    
